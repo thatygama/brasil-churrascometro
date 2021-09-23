@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="developer">
+    <a rel="Thatyane Gama Developer" href="https://github.com/ThatyGama"><h2>Developer: Thatyane Gama</h2></a>
+</div>
+<div id="coluna1">
+<img alt="Churrascometro" src="./assets/header.jpg">
+
+<div id="container">
+    <h1 id="titulo">Churrascômetro</h1>
+
+    <p id="descricao">Preencha os campos abaixo com valores numéricos para calcular a quantidade de itens para o seu Churrasco!</p>
+    
+    <div id="inputFlex">
+    <label>Adultos:</label>
+    <input id="inputAdultos" min="0" type="number" placeholder="Quantidade">
+    <label>Crianças:</label>
+    <input id="inputCriancas" min="0" type="number" placeholder="Quantidade">
+    <label>Duração do Churras:</label>
+    <input id="inputDuracao" min="0" type="number" placeholder="Em (h)">
+    <button id="btnCalc">Calcular</button> 
+    </div>
+
+    <div id="containerResult">
+    <h2 id="tituloResultados"></h2>
+    <div id="resultado">
+    </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
