@@ -17,12 +17,15 @@ a{
     text-decoration: none;
 }
 
+#developer{
+    text-align: center;
+}
+
 h2{
-    margin-left: 45%;
-    margin-top: 20px;
     font-size: 14px;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
 }
 
 #coluna1{
@@ -113,10 +116,6 @@ input:focus{
     color: white;
 }
 
-#developer{
-    margin: auto;
-}
-
 @media screen and (max-width: 1100px){
     
     img{
@@ -124,10 +123,6 @@ input:focus{
         width: 50%;
         object-fit: cover;
         border: 15px solid #F75A17;
-    }
-
-    h2{
-        margin-left: 40%;
     }
 }
 
@@ -144,10 +139,6 @@ input:focus{
         font-size: 30px;
     }
 
-
-    h2{
-        margin-left: 33%;
-    }
 }
 
 @media screen and (max-width: 610px){
@@ -175,20 +166,12 @@ input:focus{
         object-fit: fill;
         text-align: center;
         background-color: #FBC638;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 25px;
+        margin-right: 30px;
     }
 
     #titulo{
         padding-top: 10px;
-    }
-
-    h2{
-        margin-left: 23%;
-    }
-
-    #developer{
-        margin: auto;
     }
 
     #inputAdultos{
